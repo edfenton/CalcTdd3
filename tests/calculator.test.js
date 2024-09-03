@@ -28,4 +28,5 @@ describe('Calculator', () => {
     test('should throw error for division by zero', () => {
         expect(() => divide(5, 0)).toThrow('Division by zero is not allowed');
     });
+
 });
